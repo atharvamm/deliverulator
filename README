@@ -55,3 +55,13 @@ Compilation
     you should also have a directory `build/resrc/` that contains the same files as `resrc/` in the
     root directory of this project. When this is done, simply run the program however you like on
     your machine (e.g. `./build/deliverulator` on the command line).
+
+```
+For Mac Users
+1. g++ fssimplewindowobjc.m -c
+2. mkdir -p test.app/Contents/MacOS
+3. g++ -std=c++17 -I ./include/ deliverulator.cpp ./src/*  -framework Cocoa -framework OpenGL -o test.app/Contents/MacOS/test
+4. ./test.app/Contents/MacOS/test 
+```
+
+

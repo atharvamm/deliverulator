@@ -64,4 +64,4 @@ For Mac Users
 4. ./test.app/Contents/MacOS/test 
 ```
 
-![Screenshot](https://github.com/atharvamm/deliverulator/blob/trunk/deliverulator.png)
+![Screenshot!](deliverulator.png)
